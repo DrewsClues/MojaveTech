@@ -1,0 +1,168 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+.vertical-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(4, 100vh);
+    overflow-y: scroll;
+}
+  
+.vertical-scroll-item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #38def0;
+    
+}
+
+.vertical-scroll-item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #fdcc37;
+}
+
+
+.vertical-scroll-item3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #fe7ff3;
+}
+
+.vertical-scroll-item4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #98FB98;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    transform: translateY(50vh);
+    z-index: 900;
+    padding: 10px; 
+
+}
+
+.sidebar-item {
+    margin-bottom: 10px; 
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+}
+
+.sidebar-item:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+
+
+
+
+.containter-head{
+    font-family: fantasy;
+    padding: 10px;
+}
+
+.container-content {
+    height: 60vh;
+    max-width: 800px; 
+    width: 80%;
+    background-color: rgb(13, 191, 250);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); 
+    overflow: hidden; 
+    border-radius: 10px; 
+}
+
+.container-body {
+    display: flex;
+    overflow: hidden; 
+}
+
+.container-body > div {
+    flex: 1; 
+    margin-right: 20px; 
+    overflow: hidden; 
+}
+
+.home-figure {
+    height: auto; 
+    max-width: 100%; 
+    width: auto; 
+    display: block; 
+    border-radius: 15px; 
+}
+
+.mission-div {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px; 
+}
+
+.button-div{
+    text-align: center;
+    padding: 10px;
+}
+
+.start-button{
+    height: 80px;
+    width: 200px;
+    border-radius: 15px; 
+    font-size: 15pt;
+    background-color: rgb(16, 69, 150);
+    color: white;
+    border-width: 2px;
+    border-color: rgb(22, 94, 201);
+}
+
+.start-button:hover{
+    opacity: 0.7;
+}
+
+
+.social-icon{
+    margin-right: 10px; 
+}
+
+.social-icon:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none; 
+    }
+    .container-content {
+        height: 80vh;
+        width: 100vw;
+        padding-top: 10%;
+    }
+
+    .mission-div {
+        font-size: 14px; 
+    }
+
+    .start-button{
+        width: 150px;
+    }
+}
