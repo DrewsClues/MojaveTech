@@ -9,6 +9,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 import '../css-sheets/full_page.css';
 import About_section from './about-section';
+import Home_section from './home-section';
 
 function Full_Page() {
     const [count, setCount] = useState(0);
@@ -70,47 +71,7 @@ function Full_Page() {
       <>
       <Sidebar/>
         <div className='vertical-container'>
-            <div id="content-1" className="vertical-scroll-item1">
-              <div className='container-content'>
-                <div className='containter-head'>
-                  <h1>Welcome to Mojave Technical Solutions</h1>
-                </div>
-                <div className='container-body'> 
-
-                  <div className='mission-div'>
-                    <br/>
-                    <ul> 
-                        <li><h2>Cutting-edge Solutions</h2></li>
-                        <br/>
-                        <li><h2>A Tradition of Excellence</h2></li>
-                        <br/>
-                        <li><h2>Professional Teams</h2></li>
-                        <br/>
-                        <li><h2>A Strong Commitment to our Clients</h2></li>
-                    </ul>
-                    <div className='button-div'>
-                      <button className='start-button'>START HERE</button>
-                    </div>
-                    
-                  </div>
-
-                  <div>
-                    <img src='industrial.png' className='home-figure'></img>
-                  </div>
-                
-                </div>
-                <div className='containter-foot'>
-                  <FaFacebook className='social-icon'/>
-                  <RiTwitterXFill className='social-icon'/>
-                  <FaInstagram className='social-icon'/>
-                  <FaLinkedin className='social-icon'/>
-                  
-                </div>
-                
-              </div>
-
-            </div>
-           
+            <div id="content-1" className="vertical-scroll-item1"><Home_section/></div>
             <div id="content-2" className="vertical-scroll-item2"><About_section/></div>
             <div id="content-3" className="vertical-scroll-item3">Content 3</div>
             <div id="content-4" className="vertical-scroll-item4">Content 4</div>

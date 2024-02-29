@@ -152,17 +152,5 @@ body, html {
     .sidebar {
         display: none; 
     }
-    .container-content {
-        height: 80vh;
-        width: 100vw;
-        padding-top: 10%;
-    }
 
-    .mission-div {
-        font-size: 14px; 
-    }
-
-    .start-button{
-        width: 150px;
-    }
 }
