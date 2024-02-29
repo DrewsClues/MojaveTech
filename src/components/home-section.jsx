@@ -29,9 +29,6 @@ function Home_section() {
                 <br/>
                 <li><h2>A Strong Commitment to our Clients</h2></li>
             </ul>
-            <div className='home-button-div'>
-              <button className='home-start-button'>START HERE</button>
-            </div>
             
           </div>
 
