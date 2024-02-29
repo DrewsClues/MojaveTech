@@ -18,20 +18,20 @@ function About_section() {
                 </div>
                 <div className='container-body'> 
 
-                  <div className='about-text1-div'>
+                <div className='about-text1-div'>
                     <p className='about-paragraph'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus tortor a augue sodales, vitae efficitur magna sagittis. Mauris consequat tincidunt libero, non eleifend nulla tincidunt a. Nullam a nisi vel ligula vehicula tempus. Donec lobortis, magna et dignissim congue, elit arcu convallis lacus, a vehicula ex metus nec libero. Vivamus eget ipsum sed arcu molestie dapibus a et nisl. Fusce id dui nec mi sollicitudin auctor at ac risus. Aliquam at mi tristique, fringilla justo id, viverra felis. Nullam vulputate nunc ac lectus dignissim, sed varius quam scelerisque. Cras id fringilla nulla, nec vestibulum libero. Vivamus sed ipsum vel elit faucibus egestas nec nec turpis. Sed id nisi sed nisi interdum bibendum. 
-
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus tortor a augue sodales, vitae efficitur magna sagittis. Mauris consequat tincidunt libero, non eleifend nulla tincidunt a. Nullam a nisi vel ligula vehicula tempus. Donec lobortis, magna et dignissim congue, elit arcu convallis lacus, a vehicula ex metus nec libero. Vivamus eget ipsum sed arcu molestie dapibus a et nisl. Fusce id dui nec mi sollicitudin auctor at ac risus. Aliquam at mi tristique, fringilla justo id, viverra felis. Nullam vulputate nunc ac lectus dignissim, sed varius quam scelerisque. Cras id fringilla nulla, nec vestibulum libero. Vivamus sed ipsum vel elit faucibus egestas nec nec turpis. Sed id nisi sed nisi interdum bibendum.
                     </p>
+                </div>
 
-                    
-                  </div>
-
-                  <div className='aboutfigure-div'>
+                <div className='aboutfigure-div'>
                     <img src='Harold2.png' className='about-figure'></img>
-                    <p className="about-subheading"> CEO and founder 
-                    <br/>Harold Szenvedés</p>
-                  </div>
+                    <div className="about-subheading">
+                        <p>CEO and founder</p>
+                        <p>Harold Szenvedés</p>
+                    </div>
+                </div>
+
                 
                 </div>
 
