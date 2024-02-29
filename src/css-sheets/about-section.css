@@ -16,7 +16,6 @@
 
 .container-body {
     display: flex;
-    flex-wrap: wrap; 
     justify-content: center; 
 }
 
@@ -45,6 +44,7 @@
 .about-text1-div {
     text-align: left;
     font-size: 18pt;
+    margin-left: 15px;
 }
 
 .about-text2-div {
@@ -77,6 +77,10 @@
     .container-body > div {
         flex: 1 1 100%; 
         margin-right: 0; 
+    }
+
+    .container-body {
+        flex-wrap: wrap; 
     }
 
     .about-text1-div {
