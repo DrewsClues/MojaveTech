@@ -61,6 +61,7 @@
 
 .social-icon{
     margin-right: 10px; 
+    margin-bottom: 10px;
 }
 
 .social-icon:hover{
@@ -72,19 +73,23 @@
 
 
 @media (max-width: 1000px) {
-
     .home-container-content {
-        height: 100vh;
-        width: 100vw;
+        height: auto;
+        width: 100%;
         padding-top: 18vh;
-        overflow: auto; 
+        overflow: auto;
     }
 
     .home-mission-div {
-        font-size: 12px; 
+        font-size: 12px;
     }
 
-    .home-start-button{
+    .home-container-body > div {
+        flex: 1 1 100%; 
+        margin-right: 0; 
+    }
+
+    .home-start-button {
         width: 150px;
     }
 }
