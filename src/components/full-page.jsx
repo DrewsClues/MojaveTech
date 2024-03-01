@@ -10,6 +10,7 @@ import { FaLinkedin } from "react-icons/fa";
 import '../css-sheets/full_page.css';
 import About_section from './about-section';
 import Home_section from './home-section';
+import Services_section from './services-section';
 
 function Full_Page() {
     const [count, setCount] = useState(0);
@@ -73,7 +74,7 @@ function Full_Page() {
         <div className='vertical-container'>
             <div id="content-1" className="vertical-scroll-item1"><Home_section/></div>
             <div id="content-2" className="vertical-scroll-item2"><About_section/></div>
-            <div id="content-3" className="vertical-scroll-item3">Content 3</div>
+            <div id="content-3" className="vertical-scroll-item3"><Services_section/></div>
             <div id="content-4" className="vertical-scroll-item4">Content 4</div>
         </div>
       </>

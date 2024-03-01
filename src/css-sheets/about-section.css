@@ -1,4 +1,5 @@
-.container-head {
+.about-container-head {
+    padding-top: 5vh;
     font-family: fantasy;
     padding: 10px;
 }
@@ -93,5 +94,9 @@
 
     .about-figure {
         max-width: 80%; 
+    }
+
+    .about-container-head{
+        padding-top: 9vh;
     }
 }

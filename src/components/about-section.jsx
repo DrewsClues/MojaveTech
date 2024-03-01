@@ -13,7 +13,7 @@ function About_section() {
     return (
 
         <div className='about-container-content'>
-                <div className='containter-head'>
+                <div className='about-container-head'>
                   <h1>ABOUT US</h1>
                 </div>
                 <div className='container-body'> 

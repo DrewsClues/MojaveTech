@@ -5,43 +5,46 @@ import { RiTwitterXFill } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
-import '../css-sheets/home-section.css';
+import '../css-sheets/services-section.css';
 
 function Services_section() {
 
 
     return (
 
-        <div className='home-container-content'>
-        <div className='home-containter-head'>
-          <h1>Welcome to Mojave Technical Solutions</h1>
+        <div className='services-container-content'>
+        <div className='services-containter-head'>
+          <h1>Our Services</h1>
         </div>
-        <div className='home-container-body'> 
+        <div className='services-container-body'> 
 
-          <div className='home-mission-div'>
-            <br/>
-            <ul> 
-                <li><h2>Cutting-edge Solutions</h2></li>
-                <br/>
-                <li><h2>A Tradition of Excellence</h2></li>
-                <br/>
-                <li><h2>Professional Teams</h2></li>
-                <br/>
-                <li><h2>A Strong Commitment to our Clients</h2></li>
-            </ul>
-            
-          </div>
+            <div class='service-table'>
+                <div class='service-text1-div'>
+                    <table>
+                        <tr>
+                            <td><button class='service-button'>Industrial Automation Solutions</button></td>
+                            <td><button class='service-button'>Remote Monitoring and Diagnostics</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class='service-button'>Control Systems Integration</button></td>
+                            <td><button class='service-button'>Engineering and Design Services</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class='service-button'>Process Optimization</button></td>
+                            <td><button class='service-button'>Training and Education</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class='service-button'>Robotics and AI Integration</button></td>
+                            <td><button class='service-button'>Consulting and Advisory Services</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class='service-button'>Cybersecurity Solutions</button></td>
+                            <td><button class='service-button'>Env. and Sustainability Solutions</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
 
-          <div>
-            <img src='industrial.png' className='home-figure'></img>
-          </div>
-        
-        </div>
-        <div className='home-containter-foot'>
-          <FaFacebook className='social-icon'/>
-          <RiTwitterXFill className='social-icon'/>
-          <FaInstagram className='social-icon'/>
-          <FaLinkedin className='social-icon'/>
           
         </div>
         
