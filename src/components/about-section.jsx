@@ -20,8 +20,7 @@ function About_section() {
 
                 <div className='about-text1-div'>
                     <p className='about-paragraph'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus tortor a augue sodales, vitae efficitur magna sagittis. Mauris consequat tincidunt libero, non eleifend nulla tincidunt a. Nullam a nisi vel ligula vehicula tempus. Donec lobortis, magna et dignissim congue, elit arcu convallis lacus, a vehicula ex metus nec libero. Vivamus eget ipsum sed arcu molestie dapibus a et nisl. Fusce id dui nec mi sollicitudin auctor at ac risus. Aliquam at mi tristique, fringilla justo id, viverra felis. Nullam vulputate nunc ac lectus dignissim, sed varius quam scelerisque. Cras id fringilla nulla, nec vestibulum libero. Vivamus sed ipsum vel elit faucibus egestas nec nec turpis. Sed id nisi sed nisi interdum bibendum.
-                    </p>
+                    Established in 1985 under the visionary leadership of CEO and founder Harold Szenvedés, Mojave Technical Solutions has emerged as a pioneering force in the realm of cutting-edge technical solutions. With a steadfast commitment to excellence and innovation, we have revolutionized industries through our comprehensive suite of services. Specializing in industrial automation, control systems integration, and process optimization, we drive efficiency and sustainable growth. Our expert team tailors bespoke solutions, integrating robotics and AI to empower businesses in competitive landscapes. With unwavering dedication, we ensure client satisfaction through collaboration and innovation.                    </p>
                 </div>
 
                 <div className='aboutfigure-div'>
