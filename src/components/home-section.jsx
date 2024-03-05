@@ -33,7 +33,7 @@ function Home_section() {
           </div>
 
           <div>
-            <img src='industrial.png' className='home-figure'></img>
+            <img src='industrial.png' className='home-image'></img>
           </div>
         
         </div>

@@ -4,10 +4,12 @@
 }
 
 .home-container-content {
-    height: 68vh;
-    max-width: 800px; 
+    height: auto; 
+    color: rgb(0, 0, 0);
+    max-width: 1200px;
     width: 80%;
-    background-color: rgb(13, 191, 250);
+    margin: 0 auto; 
+    background: rgb(13, 191, 250);
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); 
     overflow: hidden; 
     border-radius: 10px; 
@@ -24,7 +26,7 @@
     overflow: hidden; 
 }
 
-.home-figure {
+.home-image {
     height: auto; 
     max-width: 100%; 
     width: auto; 
