@@ -33,8 +33,9 @@ function Home_section() {
           </div>
 
           <div>
-            <img src='industrial.png' className='home-image'></img>
+            <img src='Plain-Mojave.png' className='home-image'></img>
           </div>
+          <br/>
         
         </div>
         <div className='home-containter-foot'>

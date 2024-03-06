@@ -1,16 +1,16 @@
 .about-container-head {
     padding-top: 5vh;
-    font-family: fantasy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px;
 }
 
 .about-container-content {
     height: auto; 
-    color: rgb(0, 0, 0);
+    color: rgb(245, 245, 245);
     max-width: 1200px;
     width: 80%;
     margin: 0 auto; 
-    background: rgb(13, 191, 250);
+    background: #1d51c1;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
     overflow: hidden;
     border-radius: 10px;
@@ -74,6 +74,7 @@
     .about-container-content {
         width: 100%; 
         padding: 10px; 
+        border-radius: 0px; 
     }
 
     .container-body > div {
