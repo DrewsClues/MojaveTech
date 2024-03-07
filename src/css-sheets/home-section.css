@@ -9,7 +9,7 @@
     max-width: 1200px;
     width: 80%;
     margin: 0 auto; 
-    background: #1d51c1;
+    background: #0080FF;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); 
     overflow: hidden; 
     border-radius: 10px; 
@@ -61,14 +61,21 @@
 }
 
 
-.social-icon{
+.contact-icon{
     margin-right: 10px; 
     margin-bottom: 10px;
 }
 
-.social-icon:hover{
+.contact-icon:hover{
     cursor: pointer;
     opacity: 0.7;
+}
+
+.home-container-foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
 }
 
 

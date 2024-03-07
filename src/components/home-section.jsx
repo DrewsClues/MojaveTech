@@ -33,17 +33,16 @@ function Home_section() {
           </div>
 
           <div>
-            <img src='Plain-Mojave.png' className='home-image'></img>
+            <img src='Plain-Mojave2.png' className='home-image'></img>
           </div>
           <br/>
         
         </div>
         <div className='home-containter-foot'>
-          <FaFacebook className='social-icon'/>
-          <RiTwitterXFill className='social-icon'/>
-          <FaInstagram className='social-icon'/>
-          <FaLinkedin className='social-icon'/>
-          
+          <FaFacebook className='contact-icon'/>
+          <RiTwitterXFill className='contact-icon'/>
+          <FaInstagram className='contact-icon'/>
+          <FaLinkedin className='contact-icon'/>
         </div>
         
       </div>

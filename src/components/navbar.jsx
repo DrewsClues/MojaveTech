@@ -5,7 +5,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 function Nav_bar() {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="custom-navbar">
+            <Navbar collapseOnSelect expand="lg"  variant="dark" className="custom-navbar">
                 <Container>
                     <Navbar.Brand href="#home">
                         <img src='Full-logo-white.png' alt="logo" className='nav-logo'></img>
