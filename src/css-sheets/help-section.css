@@ -1,10 +1,10 @@
-.about-container-head {
+.help-container-head {
     padding-top: 5vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px;
 }
 
-.about-container-content {
+.help-container-content {
     height: auto; 
     color: rgb(245, 245, 245);
     max-width: 1200px;
@@ -28,51 +28,40 @@
     padding: 10px;
 }
 
-.about-figure {
+.help-figure {
     max-width: 50%;
     height: 50%;
     display: block;
     margin: 0 auto;
 }
 
-.about-subheading {
+.help-subheading {
     text-align: center;
 }
 
-.aboutfigure-div {
+.helpfigure-div {
     text-align: center;
     margin-left: 10%;
 }
 
-.about-text1-div {
+.help-text1-div {
     text-align: left;
     font-size: 18pt;
     margin-left: 15px;
 }
 
-.about-text2-div {
+.help-text2-div {
     text-align: left;
     font-size: 16px;
 }
 
-.start-button:hover {
-    opacity: 0.7;
-}
 
-.social-icon {
-    margin-right: 10px;
-}
-
-.social-icon:hover {
-    cursor: pointer;
-    opacity: 0.7;
-}
 
 @media (max-width: 1000px) {
     .sidebar {
         display: none;
     }
-    .about-container-content {
+    .help-container-content {
         width: 100%; 
         padding: 10px; 
         border-radius: 0px; 
@@ -87,19 +76,19 @@
         flex-wrap: wrap; 
     }
 
-    .about-text1-div {
+    .help-text1-div {
         font-size: 16pt; 
     }
 
-    .about-text2-div {
+    .help-text2-div {
         display: none; 
     }
 
-    .about-figure {
+    .help-figure {
         max-width: 80%; 
     }
 
-    .about-container-head{
+    .help-container-head{
         padding-top: 4vh;
     }
 }

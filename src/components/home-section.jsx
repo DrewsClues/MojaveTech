@@ -14,21 +14,15 @@ function Home_section() {
 
         <div className='home-container-content'>
         <div className='home-containter-head'>
-          <h1>Welcome to Mojave Technical Solutions</h1>
         </div>
         <div className='home-container-body'> 
 
           <div className='home-mission-div'>
             <br/>
-            <ul> 
-                <li><h2>Cutting-edge Solutions</h2></li>
-                <br/>
-                <li><h2>A Tradition of Excellence</h2></li>
-                <br/>
-                <li><h2>Professional Teams</h2></li>
-                <br/>
-                <li><h2>A Strong Commitment to our Clients</h2></li>
-            </ul>
+            <h1>Welcome to</h1>
+              MOJAVE TECHNICAL SOLUTIONS
+            <h3>Designing the Future</h3>
+            <br/>
             
           </div>
 

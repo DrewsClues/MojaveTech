@@ -17,6 +17,7 @@ function Nav_bar() {
                             <Nav.Link href="#content-1" >Home</Nav.Link>
                             <Nav.Link href="#content-2" >About Us</Nav.Link>
                             <Nav.Link href="#content-3" >Services</Nav.Link>
+                            <Nav.Link href="#content-4" >FAQs/Help Center</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
