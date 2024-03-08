@@ -12,18 +12,29 @@ function Help_section() {
 
     return (
 
-        <div className='about-help-content'>
+        <div className='help-container-content'>
                 <div className='about-help-head'>
                   <h1>FAQs/Help Center</h1>
                 </div>
-                <div className='container-body'> 
+
+                <div className='help-container-body'> 
+
+                  <div className='help-text1-div'>
+
+
+                  </div>
+
+
+                  <div className='help-text2-div'>
+
+                  </div>
 
                 </div>
 
 
 
                 
-        </div>
+      </div>
 
     );
 }

@@ -7,7 +7,7 @@ function Nav_bar() {
         <>
             <Navbar collapseOnSelect expand="lg"  variant="dark" className="custom-navbar">
                 <Container>
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="#content-1">
                         <img src='Full-logo-white.png' alt="logo" className='nav-logo'></img>
                         Mojave Technical Solutions
                     </Navbar.Brand>

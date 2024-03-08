@@ -50,7 +50,7 @@
     padding: 10px;
 }
 
-.home-start-button{
+.home-button{
     height: 80px;
     width: 200px;
     border-radius: 15px; 
@@ -61,7 +61,7 @@
     border-color: rgb(22, 94, 201);
 }
 
-.home-start-button:hover{
+.home-button:hover{
     opacity: 0.7;
 }
 
@@ -106,7 +106,7 @@
         margin-right: 0; 
     }
 
-    .home-start-button {
+    .home-button {
         width: 150px;
     }
 }

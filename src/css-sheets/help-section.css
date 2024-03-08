@@ -17,12 +17,12 @@
     margin-bottom: 20px;
 }
 
-.container-body {
+.help-container-body {
     display: flex;
     justify-content: center; 
 }
 
-.container-body > div {
+.help-container-body > div {
     flex: 1 1 50%; 
     margin-right: 20px;
     padding: 10px;
@@ -58,21 +58,18 @@
 
 
 @media (max-width: 1000px) {
-    .sidebar {
-        display: none;
-    }
     .help-container-content {
         width: 100%; 
         padding: 10px; 
         border-radius: 0px; 
     }
 
-    .container-body > div {
+    .help-container-body > div {
         flex: 1 1 100%; 
         margin-right: 0; 
     }
 
-    .container-body {
+    .help-container-body {
         flex-wrap: wrap; 
     }
 

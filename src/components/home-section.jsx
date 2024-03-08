@@ -4,6 +4,8 @@ import { FaFacebook } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
+
 
 import '../css-sheets/home-section.css';
 
@@ -22,6 +24,7 @@ function Home_section() {
             <h1>Welcome to</h1>
               MOJAVE TECHNICAL SOLUTIONS
             <h3>Designing the Future</h3>
+            <button className='home-button'>Book a Consultation</button>
             <br/>
             
           </div>
@@ -33,6 +36,7 @@ function Home_section() {
         
         </div>
         <div className='home-containter-foot'>
+          <MdOutlineEmail className='contact-icon'/>
           <FaFacebook className='contact-icon'/>
           <RiTwitterXFill className='contact-icon'/>
           <FaInstagram className='contact-icon'/>

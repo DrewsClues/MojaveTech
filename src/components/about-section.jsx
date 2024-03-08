@@ -18,18 +18,18 @@ function About_section() {
                 </div>
                 <div className='container-body'> 
 
-                <div className='about-text1-div'>
-                    <p className='about-paragraph'>
-                    Established in 1985 under the visionary leadership of CEO and founder Harold Szenvedés, Mojave Technical Solutions has emerged as a pioneering force in the realm of cutting-edge technical solutions. With a steadfast commitment to excellence and innovation, we have revolutionized industries through our comprehensive suite of services. Specializing in industrial automation, control systems integration, and process optimization, we drive efficiency and sustainable growth. Our expert team tailors bespoke solutions, integrating robotics and AI to empower businesses in competitive landscapes. With unwavering dedication, we ensure client satisfaction through collaboration and innovation.                    </p>
-                </div>
-
-                <div className='aboutfigure-div'>
-                    <img src='Harold2.png' className='about-figure'></img>
-                    <div className="about-subheading">
-                        <p>CEO and founder</p>
-                        <p>Harold Szenvedés</p>
+                    <div className='about-text1-div'>
+                        <p className='about-paragraph'>
+                        Established in 1985 under the visionary leadership of CEO and founder Harold Szenvedés, Mojave Technical Solutions has emerged as a pioneering force in the realm of cutting-edge technical solutions. With a steadfast commitment to excellence and innovation, we have revolutionized industries through our comprehensive suite of services. Specializing in industrial automation, control systems integration, and process optimization, we drive efficiency and sustainable growth. Our expert team tailors bespoke solutions, integrating robotics and AI to empower businesses in competitive landscapes. With unwavering dedication, we ensure client satisfaction through collaboration and innovation.                    </p>
                     </div>
-                </div>
+
+                    <div className='aboutfigure-div'>
+                        <img src='Harold2.png' className='about-figure'></img>
+                        <div className="about-subheading">
+                            <p>CEO and founder</p>
+                            <p>Harold Szenvedés</p>
+                        </div>
+                    </div>
 
                 
                 </div>
