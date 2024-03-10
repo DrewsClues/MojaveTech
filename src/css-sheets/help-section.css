@@ -22,11 +22,6 @@
     justify-content: center; 
 }
 
-.help-container-body > div {
-    flex: 1 1 50%; 
-    margin-right: 20px;
-    padding: 10px;
-}
 
 .help-figure {
     max-width: 50%;
@@ -55,6 +50,32 @@
     font-size: 16px;
 }
 
+.help-card{
+    height: 350px;
+    width: 350px;
+    margin-top: 30px;
+    background-color: rgb(16, 69, 150);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    border-radius: 15px; 
+}
+
+.help-card:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.help-icon{
+    height: 30%;
+    width: 30%;
+    margin-top: 15px;
+}
+
+.help-paragraph{
+    font-size: 12pt;
+    padding: 5px;
+}
 
 
 @media (max-width: 1000px) {
