@@ -78,7 +78,7 @@
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
     .help-container-content {
         width: 100%; 
         padding: 10px; 

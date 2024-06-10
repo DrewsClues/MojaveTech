@@ -59,6 +59,7 @@
     color: white;
     border-width: 2px;
     border-color: rgb(22, 94, 201);
+    padding: 10px;
 }
 
 .home-button:hover{
@@ -86,7 +87,7 @@
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
     .home-container-content {
         height: auto;
         width: 100%;
@@ -108,5 +109,6 @@
 
     .home-button {
         width: 150px;
+        padding: 10px;
     }
 }
